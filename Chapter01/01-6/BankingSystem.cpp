@@ -41,7 +41,7 @@ void Deposit() {//입금
     money[arr_num] += deposit;
 }
 
-void Withdraw() {//입금
+void Withdraw() {//출금
     int inserted_id;
     int withdraw;
     int arr_num = 0;
