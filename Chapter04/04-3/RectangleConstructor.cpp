@@ -1,10 +1,10 @@
-//#include <iostream>
-//#include "Point.h"
-//#include "Rectangle.h"
-//using namespace std;
-//
-//int main(void) {
-//	Rectangle rec{ 1,1,5,5 };
-//	rec.ShowRecInfo();
-//	return 0;
-//}
+#include <iostream>
+#include "point.h"
+#include "rectangle.h"
+using namespace std;
+
+int main(void) {
+	rectangle rec{ 1,1,5,5 };
+	rec.showrecinfo();
+	return 0;
+}
